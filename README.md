@@ -4,12 +4,11 @@ TDSFNet is the accompanying code repository for the paper titled, "Tensor Decomp
 
 The goal of the repository is to provide an implementation of the TDSFNet and replicate the experiments in the paper.
 
-Paper Link:
+Paper Link: https://ieeexplore.ieee.org/document/10902175
 ## Requirements
-- Python-
-- CUDA-
-- Pytorch-
-- Other Packages `pip install -r requirements.txt`  
+- Python-3.9.0
+- CUDA-12.8
+- Pytorch-2.7.1+cu126
 
 ## Data Preparation
 We use three multi-modal medical image datasets.
@@ -17,37 +16,11 @@ We use three multi-modal medical image datasets.
 - Age-related Macular Degeneration(AMD) dataset: https://arxiv.org/abs/2012.01879
 - Seven-Point Checklist(SPC) dataset: https://ieeexplore.ieee.org/document/8333693
 
-### Data Organization(PEC)
-├── cell                 
-│   ├── HAL
-│       ├── test
-│           ├── HAL
-│           ├── Met 5A
-│           ├── WBC
-│           ├── RBC
-│       ├── train
-│       ├── val
-│   ├── orig
-│       ├── test
-│           ├── HAL
-│           ├── Met 5A
-│           ├── WBC
-│           ├── RBC
-│       ├── train
-│       ├── val
 
   
 ## Model Training
-train.py provides the training pipeline for PEC datasets.
-The following paths need to be set in Config.py.
-- save_path: Location to save model checkpoints.
-- HAL_train, orig_train
-- HAL_val, orig_val
-- HAL_test, orig_test
-
 Training Model:
-`python train.py`  
+`python main.py`  
 
-We provide the trained TDSFNet checkpoint at 
 
 

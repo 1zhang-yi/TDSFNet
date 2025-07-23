@@ -17,10 +17,14 @@ We use three multi-modal medical image datasets.
 - Seven-Point Checklist(SPC) dataset: https://ieeexplore.ieee.org/document/8333693
 
 
-  
 ## Model Training
-Training Model:
-`python main.py`  
+To reproduce the results, please follow the following procedures:
+- Follow the data pre-processing procedures in https://ieeexplore.ieee.org/document/8333693 to prepare the datasets.
+- Run the code by `python main.py`
+
+## Acknowledgements
+Some parts of the codes are adapted from https://doi.org/10.1016/j.media.2021.102307. We thank the authors for their work. 
+
 
 
 

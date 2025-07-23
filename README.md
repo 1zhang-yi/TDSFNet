@@ -25,6 +25,22 @@ To reproduce the results, please follow the following procedures:
 ## Acknowledgements
 Some parts of the codes are adapted from https://doi.org/10.1016/j.media.2021.102307. We thank the authors for their work. 
 
+## Citation
+If you find the paper or the implementation helpful, please cite the following paper:
+
+```bib
+@ARTICLE{10902175,
+  author={Zhang, Yi and Xu, Guoxia and Zhao, Meng and Wang, Hao and Shi, Fan and Chen, Shengyong},
+  journal={IEEE Transactions on Neural Networks and Learning Systems}, 
+  title={TDSF-Net: Tensor Decomposition-Based Subspace Fusion Network for Multimodal Medical Image Classification}, 
+  year={2025},
+  volume={36},
+  number={6},
+  pages={10819-10832},
+  keywords={Feature extraction;Tensors;Biomedical imaging;Transformers;Matrix decomposition;Fuses;Image fusion;Image classification;Attention mechanisms;Training;Attention mechanism;classification;deep learning;multimodal fusion;tensor decomposition (TD)},
+  doi={10.1109/TNNLS.2025.3541170}}
+```
+
 
 
 
